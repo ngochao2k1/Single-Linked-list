@@ -7,16 +7,7 @@ public class Linklist {
         head = new node();
     }
 
-    static class node{
-        int value;
-        node next;
-        public node() {
-        }
-        public node(int value) {
-            this.value = value;
-            this.next = null;
-        }
-    }
+
     public void addHead(int a){
             node newNode = new node(a);
             newNode.next = head;
