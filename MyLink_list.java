@@ -85,5 +85,6 @@ class MyLink_list<T> {
             System.out.print(temp.value+ " ");
             temp = temp.next ;
         }
+        System.out.println();
     }
 }
